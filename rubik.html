@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="icon" href="./img/iconn.png">
+</head>
+
+<body class="bg-[#FFFF00]">
+    <div id="navbar"></div>
+
+    <section id="home" class="h-screen flex flex-col justify-center items-center text-center gap-6 mt-8 bg-[#FFFF00]">
+        <img src="./img/rubik.png" class="h-42 w-auto" alt="Logo" data-aos="zoom-in">
+        <h1 class="text-7xl text-center font-extrabold" data-aos="fade-up">Rubik</h1>
+        <p class="text-center md:text-xl max-w-xl text-gray-800 text-lg" data-aos="fade-up">Setiap sisi terdiri dari
+            kotak-kotak kecil yang bisa diputar, dan tujuan utamanya adalah <span
+                class="font-semibold">menyamakan</span> warna di setiap sisi kubus.</p>
+    </section>
+    <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 490" xmlns="http://www.w3.org/2000/svg"
+        class="transition duration-300 ease-in-out delay-150 mt-4">
+        <path
+            d="M 0,500 L 0,187 C 18.846699334590618,210.459672266489 37.693398669181235,233.91934453297802 64,250 C 90.30660133081876,266.080655467022 124.07310465786568,274.78229413457694 151,257 C 177.92689534213432,239.21770586542306 198.01418269935604,194.95147892871412 224,168 C 249.98581730064396,141.04852107128588 281.87016454471024,131.4117901505665 308,124 C 334.12983545528976,116.58820984943351 354.505159121803,111.4013604690199 378,112 C 401.494840878197,112.5986395309801 428.10919896807775,118.98276797335387 454,134 C 479.89080103192225,149.01723202664613 505.0580450058859,172.66756763756453 533,192 C 560.9419549941141,211.33243236243547 591.6586210083786,226.34696147638812 616,242 C 640.3413789916214,257.6530385236119 658.3074709605993,273.94458645688303 678,271 C 697.6925290394007,268.05541354311697 719.1114951492241,245.87469269607973 747,210 C 774.8885048507759,174.12530730392027 809.2465484425043,124.55664275879805 837,97 C 864.7534515574957,69.44335724120195 885.9023110807592,63.89873626872807 906,98 C 926.0976889192408,132.10126373127193 945.1442072344589,205.8484121662897 972,227 C 998.8557927655411,248.1515878337103 1033.5208599814052,216.70761506611316 1064,217 C 1094.4791400185948,217.29238493388684 1120.7723528399197,249.3211275692576 1142,228 C 1163.2276471600803,206.6788724307424 1179.3897286589163,132.00787465685636 1201,123 C 1222.6102713410837,113.99212534314363 1249.6687325244143,170.64737380331687 1276,200 C 1302.3312674755857,229.35262619668313 1327.9353412434268,231.40263012987623 1360,220 C 1392.0646587565732,208.59736987012377 1430.589902501878,183.7421056771782 1445,176 C 1459.410097498122,168.2578943228218 1449.705048749061,177.6289471614109 1440,187 L 1440,500 L 0,500 Z"
+            stroke="none" stroke-width="0" fill="#ffe600" fill-opacity="1"
+            class="transition-all duration-300 ease-in-out delay-150 path-0"></path>
+    </svg>
+
+    <section id="about" class="min-h-screen bg-[#FFE600] flex justify-center items-center p-36 gap-12">
+        <h1 class="text-7xl font-extrabold" data-aos="flip-right">Apa itu Rubik?</h1>
+        <p class="text-lg text-justify" data-aos="fade-left">adalah sebuah kubus
+            permainan yang setiap sisinya terdiri dari kotak-kotak
+            berwarna. Tujuannya adalah memutar kubus hingga semua sisi memiliki warna yang sama.</p>
+    </section>
+
+    <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 490" xmlns="http://www.w3.org/2000/svg"
+        class="transition duration-300 ease-in-out delay-150">
+        <path
+            d="M 0,500 L 0,187 C 27.141606627238424,202.3753173934467 54.28321325447685,217.7506347868934 80,226 C 105.71678674552315,234.2493652131066 130.00875360933108,235.37277824587315 154,234 C 177.99124639066892,232.62722175412685 201.68177230819887,228.75825222961413 224,238 C 246.31822769180113,247.24174777038587 267.26415715787357,269.5942128356703 297,257 C 326.73584284212643,244.40578716432972 365.26159906030693,196.8648964277047 388,175 C 410.73840093969307,153.1351035722953 417.68944660089875,156.94620145351084 442,163 C 466.31055339910125,169.05379854648916 507.9806145360981,177.3502977582519 535,171 C 562.0193854639019,164.6497022417481 574.3880952547089,143.65260751348146 597,142 C 619.6119047452911,140.34739248651854 652.4670044450661,158.03927218782223 684,195 C 715.5329955549339,231.96072781217777 745.7438869650267,288.1903037352296 769,272 C 792.2561130349733,255.80969626477045 808.5574476948267,167.19951287125943 835,126 C 861.4425523051733,84.80048712874057 898.0263222556667,91.01164477973273 920,111 C 941.9736777443333,130.98835522026727 949.3372632825067,164.75390800980963 972,191 C 994.6627367174933,217.24609199019037 1032.6246246143064,235.97272318102878 1060,221 C 1087.3753753856936,206.02727681897122 1104.1642382602672,157.3551992660752 1129,166 C 1153.8357617397328,174.6448007339248 1186.7184223446247,240.60647975467046 1214,235 C 1241.2815776553753,229.39352024532954 1262.9620723612347,152.21888171524296 1286,143 C 1309.0379276387653,133.78111828475704 1333.4332882104366,192.51799338435768 1364,217 C 1394.5667117895634,241.48200661564232 1431.3047747970181,231.70914474732635 1445,221 C 1458.6952252029819,210.29085525267365 1449.347612601491,198.6454276263368 1440,187 L 1440,500 L 0,500 Z"
+            stroke="none" stroke-width="0" fill="#ffe600" fill-opacity="1"
+            class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 250)">
+        </path>
+    </svg>
+
+    <section id="skills" class="min-h-screen py-20 bg-[#FFFF00]">
+        <div class="max-w-6xl mx-auto text-center px-6">
+            <h2 class="text-4xl font-bold mb-12 mt-12" data-aos="fade-up">Kelebihan Rubik</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-6 bg-[#FFE600] rounded-xl shadow-lg" data-aos="zoom-in">
+                    <h3 class="font-bold text-xl mb-2">Melatih Konsentrasi</h3>
+                    <p>Untuk menyelesaikannya, diperlukan fokus penuh
+                        sehingga secara tidak langsung membiasakan diri agar lebih tahan terhadap distraksi.</p>
+                </div>
+                <div class="p-6 bg-[#FFE600] rounded-xl shadow-lg" data-aos="zoom-in" data-aos-delay="100">
+                    <h3 class="font-bold text-xl mb-2">Mengasah Kesabaran</h3>
+                    <p>Menyelesaikan Rubik butuh waktu dan percobaan berulang, sehingga melatih
+                        untuk tetap sabar dan
+                        tidak mudah menyerah.</p>
+                </div>
+                <div class="p-6 bg-[#FFE600] rounded-xl shadow-lg" data-aos="zoom-in" data-aos-delay="200">
+                    <h3 class="font-bold text-xl mb-2">Meningkatkan Daya Ingat</h3>
+                    <p>Bermain Rubik membantu mengingat pola serta melatih cara berpikir
+                        sistematis dalam mencari
+                        solusi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: false
+        });
+    </script>
+</body>
+
+</html>
