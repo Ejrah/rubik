@@ -4,14 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rubik Ceritanya</title>
+    <title>Index</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="icon" href="./img/iconn.png">
 </head>
 
 <body class="bg-[#FFFF00]">
-    <div id="navbar"></div>
+    <!-- Navbar tcuy -->
+    <div id="navbar" class="w-full fixed top-0 left-0 bg-transparent text-white z-20 backdrop-blur shadow-lg">
+        <div class="flex justify-between items-center px-6 py-4 bg-transparent">
+            <a href="index.html">
+                <img src="./img/icon.png" alt="Icon" class="h-12 w-auto">
+            </a>
+            <nav>
+                <ul class="flex space-x-4">
+                    <!-- <li><a href="index.html" class="font-amuro text-xl hover:text-palette-sunset">Index</a></li> -->
+                    <li><a href="#home"
+                            class="text-xl hover:bg-black text-black rounded-lg py-2 px-4 hover:text-white">Home</a>
+                    </li>
+                    <li><a href="#about"
+                            class="text-xl hover:bg-black text-black rounded-lg py-2 px-4 hover:text-white">Tentang</a>
+                    </li>
+                    <li><a href="#skills"
+                            class="text-xl hover:bg-black text-black rounded-lg py-2 px-4 hover:text-white">Kelebihan</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 
     <section id="home" class="h-screen flex flex-col justify-center items-center text-center gap-6 mt-8 bg-[#FFFF00]">
         <img src="./img/rubik.png" class="h-42 w-auto" alt="Logo" data-aos="zoom-in">
@@ -69,7 +90,15 @@
         </div>
     </section>
 
-    <script src="script.js"></script>
+    <!-- Footer Section -->
+    <footer id="footer" class="w-full bg-[#FFE600] text-gray-800 py-6">
+        <div class="max-w-7xl mx-auto text-center">
+            <img src="./img/icon.png" alt="Logo Icon" class="h-16 w-auto mx-auto mb-4">
+            <p class="text-sm">© 2025 RUBIK CERITANYA. All rights reserved.</p>
+            <p class="text-xs">Designed with ♥ by Maheswara Damar</p>
+        </div>
+    </footer>
+
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
     <script>
         AOS.init({
@@ -78,6 +107,5 @@
         });
     </script>
 </body>
-
 
 </html>
